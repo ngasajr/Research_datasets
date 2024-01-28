@@ -1,6 +1,6 @@
 ## 📖 Project Goal
 
--> The project aimed to enhance the classification performance of 19 classes of White Blood Cells by solving the imbalance problem in the original dataset. The specific types of WBCs to be classified are as follows: Band_neutrophil, Segmented_neutrophil, Eosinophil, Basophil, Lymphocyte, Promyelocyte, Myelocyte, Metamyelocyte, Prolymphocyte, Immature_cell, Lymphocyte_variant_form, Plasma_cell, Large_granular_lymphocyte, Abnormal_cell, Smudge_cell, Artifact, nRBC, and Giant_platelet.
+-> The project aimed to enhance the classification performance of 19 White Blood Cells (WBC) classes by solving the imbalance problem in the original dataset. The specific types of WBCs to be classified are as follows: Band_neutrophil, Segmented_neutrophil, Eosinophil, Basophil, Lymphocyte, Promyelocyte, Myelocyte, Metamyelocyte, Prolymphocyte, Immature_cell, Lymphocyte_variant_form, Plasma_cell, Large_granular_lymphocyte, Abnormal_cell, Smudge_cell, Artifact, nRBC, and Giant_platelet.
 
 ->  On solving the problem of imbalanced data volume in those types of white blood cells, we introduced a generative model - Diffusion-based Wasserstein Generative Adversarial Network with Gradient Penalty (WGAN-GP) that contributed to having a balanced training dataset which helped the training and generalization of the combined ResNet50 and Support Vector Machine (SVM) for the classification task.
 
